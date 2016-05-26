@@ -1,0 +1,8 @@
+#node modules
+node_modules/
+
+#cache files for sass compilation
+css/.sass-cache/
+
+#generated css file should not be synced, only the scss-files
+css/stylesheets/*.css

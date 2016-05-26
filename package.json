@@ -1,0 +1,22 @@
+{
+	"name": "andrejson",
+	"version": "1.0.0",
+	"description": "Test stuff.",
+	"author": "Andre Josefsson <andre.v.json@gmail.com>",
+	"main": "server.js",
+	"dependencies": {
+		"express" : "~4.13.3",
+		"angular" : "~1.5.5",
+		"angular-animate" : "~1.4.8",
+		"angular-aria" : "~1.4.8",
+		"angular-chart.js" : "~1.0.0-alpha6",
+		"angular-material": "~1.1.0-rc4",
+		"angular-material-icons" : "~0.6.0",
+		"angular-route" : "~1.4.8",
+		"chart.js" : "~2.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/AndreJSON/data-vis.git"
+	}
+}

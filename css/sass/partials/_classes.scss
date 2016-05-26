@@ -1,0 +1,37 @@
+//Container css
+.aj-main-content {
+	@include linear-gradient(rgb(230,231,231), rgb(232,236,236));
+	md-card {
+		display: inline-block;
+	}
+}
+
+.aj-centered {
+	margin: auto;
+	padding: 0;
+}
+
+.aj-centered-content {
+	@extend .aj-centered;
+	max-width: 820px;
+	width: 100%;
+	background: $almost-white;
+}
+
+.aj-text-content {
+	padding-left: 15px;
+	padding-right: 15px;
+	background: $almost-white;
+}
+
+//Sidenav css
+.aj-sidenav-button {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.aj-sidenav-button-text {
+	float: left;
+	padding-left: 20px;
+}
