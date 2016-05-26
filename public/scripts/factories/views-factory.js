@@ -3,7 +3,7 @@
 angular.module('andrejson')
 	.factory('viewsFactory', function () {
 		'use strict';
-		var view, data;
+		var data;
 		
 		data = {
 			views: [
