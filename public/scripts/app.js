@@ -1,6 +1,6 @@
 /*global angular */
 
-angular.module('andrejson', ['ngMaterial', 'ngRoute', 'ngMdIcons'])
+angular.module('andrejson', ['ngMaterial', 'ngRoute', 'ngMdIcons', 'chart.js'])
 	.config(function ($routeProvider) {
 		'use strict';
 		$routeProvider
@@ -11,7 +11,8 @@ angular.module('andrejson', ['ngMaterial', 'ngRoute', 'ngMdIcons'])
 				templateUrl: 'views/home.html'
 			})
 			.when('/diagrams', {
-				templateUrl: 'views/diagrams.html'
+				templateUrl: 'views/diagrams.html',
+				controller: 'diagramsController'
 			})
 			.otherwise({
 				templateUrl: 'views/404.html'
